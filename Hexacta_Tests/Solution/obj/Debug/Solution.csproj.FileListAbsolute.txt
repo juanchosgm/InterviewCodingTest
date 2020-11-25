@@ -1,0 +1,7 @@
+C:\Users\Juan\Downloads\interviewCodingTest-UpdateLineEndings\3. Debugging\Solution\bin\Debug\Solution.exe.config
+C:\Users\Juan\Downloads\interviewCodingTest-UpdateLineEndings\3. Debugging\Solution\bin\Debug\Solution.exe
+C:\Users\Juan\Downloads\interviewCodingTest-UpdateLineEndings\3. Debugging\Solution\bin\Debug\Solution.pdb
+C:\Users\Juan\Downloads\interviewCodingTest-UpdateLineEndings\3. Debugging\Solution\obj\Debug\Solution.csprojAssemblyReference.cache
+C:\Users\Juan\Downloads\interviewCodingTest-UpdateLineEndings\3. Debugging\Solution\obj\Debug\Solution.csproj.CoreCompileInputs.cache
+C:\Users\Juan\Downloads\interviewCodingTest-UpdateLineEndings\3. Debugging\Solution\obj\Debug\Solution.exe
+C:\Users\Juan\Downloads\interviewCodingTest-UpdateLineEndings\3. Debugging\Solution\obj\Debug\Solution.pdb

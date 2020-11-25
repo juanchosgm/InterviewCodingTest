@@ -1,0 +1,13 @@
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\bin\Debug\netcoreapp3.1\DataMunging.exe
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\bin\Debug\netcoreapp3.1\DataMunging.deps.json
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\bin\Debug\netcoreapp3.1\DataMunging.runtimeconfig.json
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\bin\Debug\netcoreapp3.1\DataMunging.runtimeconfig.dev.json
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\bin\Debug\netcoreapp3.1\DataMunging.dll
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\bin\Debug\netcoreapp3.1\DataMunging.pdb
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\obj\Debug\netcoreapp3.1\DataMunging.csprojAssemblyReference.cache
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\obj\Debug\netcoreapp3.1\DataMunging.AssemblyInfoInputs.cache
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\obj\Debug\netcoreapp3.1\DataMunging.AssemblyInfo.cs
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\obj\Debug\netcoreapp3.1\DataMunging.csproj.CoreCompileInputs.cache
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\obj\Debug\netcoreapp3.1\DataMunging.dll
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\obj\Debug\netcoreapp3.1\DataMunging.pdb
+C:\Users\Juan\source\repos\Hexacta_Tests\DataMunging\obj\Debug\netcoreapp3.1\DataMunging.genruntimeconfig.cache

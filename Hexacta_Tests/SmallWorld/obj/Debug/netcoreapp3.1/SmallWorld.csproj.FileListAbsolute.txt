@@ -1,0 +1,13 @@
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\bin\Debug\netcoreapp3.1\SmallWorld.exe
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\bin\Debug\netcoreapp3.1\SmallWorld.deps.json
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\bin\Debug\netcoreapp3.1\SmallWorld.runtimeconfig.json
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\bin\Debug\netcoreapp3.1\SmallWorld.runtimeconfig.dev.json
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\bin\Debug\netcoreapp3.1\SmallWorld.dll
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\bin\Debug\netcoreapp3.1\SmallWorld.pdb
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\obj\Debug\netcoreapp3.1\SmallWorld.csprojAssemblyReference.cache
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\obj\Debug\netcoreapp3.1\SmallWorld.AssemblyInfoInputs.cache
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\obj\Debug\netcoreapp3.1\SmallWorld.AssemblyInfo.cs
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\obj\Debug\netcoreapp3.1\SmallWorld.csproj.CoreCompileInputs.cache
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\obj\Debug\netcoreapp3.1\SmallWorld.dll
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\obj\Debug\netcoreapp3.1\SmallWorld.pdb
+C:\Users\Juan\source\repos\Hexacta_Tests\SmallWorld\obj\Debug\netcoreapp3.1\SmallWorld.genruntimeconfig.cache
