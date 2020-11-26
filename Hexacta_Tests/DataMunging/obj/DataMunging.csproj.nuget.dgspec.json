@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Juan\\source\\repos\\Hexacta_Tests\\DataMunging\\DataMunging.csproj": {}
+    "D:\\RepositoryGit\\InterviewCodingTest\\Hexacta_Tests\\DataMunging\\DataMunging.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Juan\\source\\repos\\Hexacta_Tests\\DataMunging\\DataMunging.csproj": {
+    "D:\\RepositoryGit\\InterviewCodingTest\\Hexacta_Tests\\DataMunging\\DataMunging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Juan\\source\\repos\\Hexacta_Tests\\DataMunging\\DataMunging.csproj",
+        "projectUniqueName": "D:\\RepositoryGit\\InterviewCodingTest\\Hexacta_Tests\\DataMunging\\DataMunging.csproj",
         "projectName": "DataMunging",
-        "projectPath": "C:\\Users\\Juan\\source\\repos\\Hexacta_Tests\\DataMunging\\DataMunging.csproj",
+        "projectPath": "D:\\RepositoryGit\\InterviewCodingTest\\Hexacta_Tests\\DataMunging\\DataMunging.csproj",
         "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Juan\\source\\repos\\Hexacta_Tests\\DataMunging\\obj\\",
+        "outputPath": "D:\\RepositoryGit\\InterviewCodingTest\\Hexacta_Tests\\DataMunging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

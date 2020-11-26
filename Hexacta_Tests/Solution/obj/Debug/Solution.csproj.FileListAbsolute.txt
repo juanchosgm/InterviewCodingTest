@@ -5,3 +5,9 @@ C:\Users\Juan\Downloads\interviewCodingTest-UpdateLineEndings\3. Debugging\Solut
 C:\Users\Juan\Downloads\interviewCodingTest-UpdateLineEndings\3. Debugging\Solution\obj\Debug\Solution.csproj.CoreCompileInputs.cache
 C:\Users\Juan\Downloads\interviewCodingTest-UpdateLineEndings\3. Debugging\Solution\obj\Debug\Solution.exe
 C:\Users\Juan\Downloads\interviewCodingTest-UpdateLineEndings\3. Debugging\Solution\obj\Debug\Solution.pdb
+D:\RepositoryGit\InterviewCodingTest\Hexacta_Tests\Solution\bin\Debug\Solution.exe.config
+D:\RepositoryGit\InterviewCodingTest\Hexacta_Tests\Solution\bin\Debug\Solution.exe
+D:\RepositoryGit\InterviewCodingTest\Hexacta_Tests\Solution\bin\Debug\Solution.pdb
+D:\RepositoryGit\InterviewCodingTest\Hexacta_Tests\Solution\obj\Debug\Solution.csproj.CoreCompileInputs.cache
+D:\RepositoryGit\InterviewCodingTest\Hexacta_Tests\Solution\obj\Debug\Solution.exe
+D:\RepositoryGit\InterviewCodingTest\Hexacta_Tests\Solution\obj\Debug\Solution.pdb

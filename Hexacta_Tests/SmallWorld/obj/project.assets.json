@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Juan\\source\\repos\\Hexacta_Tests\\SmallWorld\\SmallWorld.csproj",
+      "projectUniqueName": "D:\\RepositoryGit\\InterviewCodingTest\\Hexacta_Tests\\SmallWorld\\SmallWorld.csproj",
       "projectName": "SmallWorld",
-      "projectPath": "C:\\Users\\Juan\\source\\repos\\Hexacta_Tests\\SmallWorld\\SmallWorld.csproj",
+      "projectPath": "D:\\RepositoryGit\\InterviewCodingTest\\Hexacta_Tests\\SmallWorld\\SmallWorld.csproj",
       "packagesPath": "C:\\Users\\Juan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Juan\\source\\repos\\Hexacta_Tests\\SmallWorld\\obj\\",
+      "outputPath": "D:\\RepositoryGit\\InterviewCodingTest\\Hexacta_Tests\\SmallWorld\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

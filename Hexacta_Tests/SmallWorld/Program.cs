@@ -1,7 +1,7 @@
 ﻿using SmallWorld.Models;
+using SmallWorld.Service;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace SmallWorld
 {
@@ -24,28 +24,9 @@ namespace SmallWorld
 
         static void Main(string[] args)
         {
-            for (int i = 0; i < Points.Count; i++)
-            {
-                var currentPoint = Points.ElementAt(i);
-                var pointsToEvaluate = Points.Where(p => !p.Equals(currentPoint));
-                var distanceAgainstAllPoints = pointsToEvaluate.Select((pte, index) => new
-                {
-                    Index = Points.IndexOf(pte) + 1,
-                    Distance = GetDistance(currentPoint, pte),
-                    Point = pte
-                }).OrderBy(d => d.Distance).Take(3);
-                Console.WriteLine($"{i + 1} {string.Join(",", distanceAgainstAllPoints.Select(daap => daap.Index))}");
-            }
+            var service = new SmallWorldService(Points);
+            service.ShowResult();
             Console.ReadLine();
-        }
-
-        static double GetDistance(Point point1, Point point2)
-        {
-            var distanceX = point1.X - point2.X;
-            var distanceY = point1.Y - point2.Y;
-            var distanceMultiplied = (distanceX * distanceX) + (distanceY * distanceY);
-            var operationResult = Math.Round(Math.Sqrt(distanceMultiplied), 3, MidpointRounding.AwayFromZero);
-            return operationResult;
         }
     }
 }
