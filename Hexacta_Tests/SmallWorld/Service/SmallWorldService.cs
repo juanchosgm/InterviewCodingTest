@@ -15,7 +15,7 @@ namespace SmallWorld.Service
             this.points = points;
         }
 
-        public void ShowResult()
+        public IEnumerable<string> GetResult()
         {
             for (int i = 0; i < points.Count; i++)
             {
@@ -27,7 +27,7 @@ namespace SmallWorld.Service
                     Distance = GetDistance(currentPoint, pte),
                     Point = pte
                 }).OrderBy(d => d.Distance).Take(3);
-                Console.WriteLine($"{i + 1} {string.Join(",", distanceAgainstAllPoints.Select(daap => daap.Index))}");
+                yield return $"{i + 1} {string.Join(",", distanceAgainstAllPoints.Select(daap => daap.Index))}";
             }
         }
 

@@ -1,4 +1,7 @@
-﻿using DataMunging.Service;
+﻿using DataMunging.Models;
+using DataMunging.Service;
+using System.Collections.Generic;
+using System.Linq;
 using Xunit;
 
 namespace UnitTestHexacta.DataMunging.Service
@@ -7,39 +10,55 @@ namespace UnitTestHexacta.DataMunging.Service
     {
         [Theory]
         [MemberData(nameof(MockData.DataMungingData), MemberType = typeof(MockData))]
-        [Trait("DataMuningService", "ShowResultCorrectly")]
-        public void ReportGeneratedCorrectly(string categories, string expenses)
+        [Trait("DataMuningService", "ResultSameThreeRecords")]
+        public void ResultSameThreeRecords(string categories, string expenses)
         {
             // Arrage
-            var service = new DataMungingService();
+            var input = InitializeValues(categories, expenses);
 
             // Act
-            var exception = Record.Exception(() => 
-            {
-                service.GetCategories(categories);
-                service.ShowResult(service.GetExpenses(expenses));
-            });
+            var result = input.service.GetResult(input.expenses, input.categories);
 
             // Assert
-            Assert.Null(exception);
+            Assert.Equal(3, result.Count());
         }
 
-        [Fact]
-        [Trait("DataMuningService", "GenerateException")]
-        public void ReportDoesNotGeneratedCorrectly()
+        [Theory]
+        [MemberData(nameof(MockData.DataMungingData), MemberType = typeof(MockData))]
+        [Trait("DataMuningService", "ResultStarbucksShouldBeTwo")]
+        public void ResultStarbucksShouldBeTwo(string categories, string expenses)
         {
             // Arrage
-            var service = new DataMungingService();
+            var input = InitializeValues(categories, expenses);
 
             // Act
-            var exception = Record.Exception(() => 
-            {
-                service.GetCategories(string.Empty);
-                service.ShowResult(service.GetExpenses(string.Empty));
-            });
+            var result = input.service.GetResult(input.expenses, input.categories)
+                .Where(r => r.Contains("Starbucks"));
 
             // Assert
-            Assert.NotNull(exception);
+            Assert.Equal(2, result.Count());
+        }
+
+        [Theory]
+        [MemberData(nameof(MockData.DataMungingData), MemberType = typeof(MockData))]
+        [Trait("DataMuningService", "ResultLastRecordShouldBe317")]
+        public void ResultLastRecordShouldBe317(string categories, string expenses)
+        {
+            // Arrage
+            var input = InitializeValues(categories, expenses);
+
+            // Act
+            var result = input.service.GetResult(input.expenses, input.categories)
+                .Last();
+
+            // Assert
+            Assert.Contains("$3.17", result);
+        }
+
+        private (DataMungingService service, IEnumerable<Expense> expenses, IEnumerable<Category> categories) InitializeValues(string categories, string expenses)
+        {
+            var service = new DataMungingService();
+            return (service, service.GetExpenses(expenses), service.GetCategories(categories));
         }
     }
 }

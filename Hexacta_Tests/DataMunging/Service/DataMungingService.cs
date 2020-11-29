@@ -33,14 +33,15 @@ namespace DataMunging.Service
             return result;
         }
 
-        public void ShowResult(IEnumerable<Expense> expenses)
+        public IEnumerable<string> GetResult(IEnumerable<Expense> expenses, IEnumerable<Category> categories)
         {
-            var groupingResult = expenses.GroupBy(p => new { p.PurchaseDate, p.Location })
+            categories = categories.Where(c => c.IsActive == "Y");
+            var groupingResult = expenses
+                .Join(categories, e => e.Code, c => c.Code, (e, c) => e)
+                .GroupBy(e => new { e.PurchaseDate, e.Location })
                 .OrderBy(p => p.Key.PurchaseDate).ThenBy(p => p.Key.Location);
-            foreach (var item in groupingResult)
-            {
-                Console.WriteLine($"{item.Key.PurchaseDate}: {item.Key.Location} - ${item.Sum(i => i.Value)}");
-            }
+            var result = groupingResult.Select(gr => $"{gr.Key.PurchaseDate}: {gr.Key.Location} - ${gr.Sum(i => i.Value)}");
+            return result;
         }
 
         private IEnumerable<IEnumerable<string>> SplitInput(string input)

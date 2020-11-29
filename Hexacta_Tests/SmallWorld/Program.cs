@@ -2,6 +2,7 @@
 using SmallWorld.Service;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SmallWorld
 {
@@ -25,7 +26,10 @@ namespace SmallWorld
         static void Main(string[] args)
         {
             var service = new SmallWorldService(Points);
-            service.ShowResult();
+            foreach (var item in service.GetResult())
+            {
+                Console.WriteLine(item);
+            }
             Console.ReadLine();
         }
     }
